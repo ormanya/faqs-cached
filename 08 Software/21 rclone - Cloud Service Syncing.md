@@ -29,7 +29,7 @@ Unzip rclone<br>
 <br>
 Now move the rclone file<br>
 <br>
-<pre><code>mv .&#x2F;rclone-v1.29-linux-amd64&#x2F;rclone .&#x2F;bin&#x2F;</code></pre><br>
+<pre><code>mv .&#x2F;rclone-*-linux-amd64&#x2F;rclone .&#x2F;bin&#x2F;</code></pre><br>
 <br>
 Delete the old files<br>
 <br>
