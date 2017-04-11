@@ -21,7 +21,7 @@ Rclone supports the following cloud services:<br>
 <br>
 First download <a href="http://rclone.org/downloads/">rclone</a>:<br>
 <br>
-<pre><code>wget <a href="http://downloads.rclone.org/rclone-current-linux-amd64.zip">http:&#x2F;&#x2F;downloads.rclone.org&#x2F;rclone-current-linux-amd64.zip</a> -O .&#x2F;bin&#x2F;rclone.zip</code></pre><br>
+<pre><code>mkdir -p ~/bin; wget <a href="http://downloads.rclone.org/rclone-current-linux-amd64.zip">http:&#x2F;&#x2F;downloads.rclone.org&#x2F;rclone-current-linux-amd64.zip</a> -O .&#x2F;bin&#x2F;rclone.zip</code></pre><br>
 <br>
 Unzip rclone<br>
 <br>
@@ -33,7 +33,7 @@ Now move the rclone file<br>
 <br>
 Delete the old files<br>
 <br>
-<pre><code>rm -rf .&#x2F;rclone-v1.29-linux-amd64&#x2F;</code></pre><br>
+<pre><code>rm -rf .&#x2F;rclone-*-linux-amd64&#x2F;</code></pre><br>
 <pre><code>rm .&#x2F;bin&#x2F;rclone.zip</code></pre><br>
 <br>
 You&#x27;re done installing. Go ahead and setup your cloud service:<br>
